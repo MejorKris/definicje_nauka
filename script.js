@@ -4,7 +4,7 @@ const definitions = {
     "feof()": "Sprawdza, czy osiągnięto koniec pliku (EOF). Funkcja feof() jest przydatna do zapętlania danych o nieznanej długości",
     "fread()": "Czyta z otwartego pliku. Pierwszy parametr zawiera nazwę pliku do odczytania, a drugi określa maksymalną liczbę bajtów do odczytania",
     "freadfile()": "Powoduje otwarcie pliku, wyświetlenie jego zawartości i zamknięcie pliku.",
-    "fwrite() i fputs()": "Umożliwiają zapisywanie danych w pliuku. Obie funkcje przyjmują dwa parametry (opcjonalnie trzy) - zmienną wskazującą plik, do którego zostaną zapisane informacje, maksymalną liczbę bajtów do zapisania, np. ",
+    "fwrite() i fputs()": "Umożliwiają zapisywanie danych w pliku. Obie funkcje przyjmują dwa parametry (opcjonalnie trzy) - zmienną wskazującą plik, do którego zostaną zapisane informacje, maksymalną liczbę bajtów do zapisania, np. ",
     "fclose()": "Służy do zamykania otwartego pliku. Dobrą praktyką programowania jest zamykanie wszystkich plików po ich zakończeniu. Nie chcemy, aby otwarty plik działał na serwerze, zabierając zasoby. Funkcja fclose() wymaga nazwy pliku (lub zmiennej przechowującej nazwę pliku), którą chcemy zamknąć. Funkcja zwraca wartość TRUE, jeżeli plik został zamknięty, lub FALSE w innym przypadku"
 };
 
