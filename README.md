@@ -1,1 +1,0 @@
-# definicje_nauka
